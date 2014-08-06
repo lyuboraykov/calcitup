@@ -1,0 +1,45 @@
+﻿body {
+    background-image: url(../images/background.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+body, img, ul {
+    margin:0;
+    padding:0;
+}
+
+#highscores-section {
+    display:block;
+    width:400px;
+    margin: 0 auto;
+    margin-top:100px;
+    border-radius:10px;
+    border:2px solid #808080;
+    background-color:#FFF;
+    font-size:15px;
+}
+
+#back-button{
+    float:left;
+    height:150px;
+    margin-left:80px;
+}
+
+#back-button:hover{
+    transform:scale(1.05);
+}
+
+li:nth-child(2n+1){
+    background-color:#ddd;
+}
+
+li{
+    font-size:40px;
+    padding:5px;
+}
+
+ul{
+    list-style:none;
+    padding:10px;
+}

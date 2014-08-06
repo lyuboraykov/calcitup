@@ -1,0 +1,29 @@
+﻿body {
+        
+}
+
+#start-button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 300px;
+    font-size: 40px;
+}
+
+#schooler-image {
+    float:right;
+    position:absolute;
+    top:20px;
+    left:730px;
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}

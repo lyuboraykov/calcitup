@@ -1,0 +1,9 @@
+C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\bin\Debug\resources.pri
+C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\bin\Debug\AppxManifest.xml
+C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\bin\Debug\Calc it Up.build.appxrecipe
+C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\bld\Debug\priconfig.xml
+C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\bld\Debug\layout.resfiles
+C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\bld\Debug\resources.resfiles
+C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\bld\Debug\pri.resfiles
+C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\bld\Debug\LanguageQualifiers.txt
+C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\bld\Debug\ProjectArchitectures.txt

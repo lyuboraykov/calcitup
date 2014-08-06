@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>1580c38c-a693-4cc8-b6cd-202293be651c</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <PropertyGroup>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetPlatformVersion>8.0</TargetPlatformVersion>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <PackageCertificateKeyFile>Calc it Up_StoreKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <PackageCertificateThumbprint>714AEA9E73342614B528569FF43EA621484E7648</PackageCertificateThumbprint>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="Calc it Up_StoreKey.pfx" />
+    <Content Include="css\startPage.css" />
+    <Content Include="images\splashscreen.png" />
+    <Content Include="images\taskArea.jpg" />
+    <Content Include="images\WideLogo.scale-80.png" />
+    <None Include="Package.StoreAssociation.xml" />
+    <Content Include="js\soundjs-0.4.0.min.js" />
+    <Content Include="js\taskPreloader.js" />
+    <Content Include="music\jump.mp3" />
+    <Content Include="music\Shake and Bake_0.mp3" />
+    <Content Include="startPage.html" />
+    <Content Include="images\bird-sprite.png" />
+    <Content Include="images\cloud.png" />
+    <Content Include="images\landshaft.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\manSpriteSheet.png" />
+    <Content Include="images\schooler.jpg" />
+    <Content Include="images\smalllogo.png" />
+    <Content Include="images\storelogo.png" />
+    <Content Include="images\sun.png" />
+    <Content Include="js\box2dweb.js" />
+    <Content Include="js\default.js" />
+    <Content Include="css\default.css" />
+    <Content Include="js\easeljs\display\Bitmap.js" />
+    <Content Include="js\easeljs\display\BitmapAnimation.js" />
+    <Content Include="js\easeljs\display\Container.js" />
+    <Content Include="js\easeljs\display\DisplayObject.js" />
+    <Content Include="js\easeljs\display\DOMElement.js" />
+    <Content Include="js\easeljs\display\Graphics.js" />
+    <Content Include="js\easeljs\display\MovieClip.js" />
+    <Content Include="js\easeljs\display\Shadow.js" />
+    <Content Include="js\easeljs\display\Shape.js" />
+    <Content Include="js\easeljs\display\SpriteSheet.js" />
+    <Content Include="js\easeljs\display\Stage.js" />
+    <Content Include="js\easeljs\display\Text.js" />
+    <Content Include="js\easeljs\events\MouseEvent.js" />
+    <Content Include="js\easeljs\filters\AlphaMapFilter.js" />
+    <Content Include="js\easeljs\filters\AlphaMaskFilter.js" />
+    <Content Include="js\easeljs\filters\BoxBlurFilter.js" />
+    <Content Include="js\easeljs\filters\ColorFilter.js" />
+    <Content Include="js\easeljs\filters\ColorMatrix.js" />
+    <Content Include="js\easeljs\filters\ColorMatrixFilter.js" />
+    <Content Include="js\easeljs\filters\Filter.js" />
+    <Content Include="js\easeljs\geom\Matrix2D.js" />
+    <Content Include="js\easeljs\geom\Point.js" />
+    <Content Include="js\easeljs\geom\Rectangle.js" />
+    <Content Include="js\easeljs\ui\Touch.js" />
+    <Content Include="js\easeljs\utils\SpriteSheetBuilder.js" />
+    <Content Include="js\easeljs\utils\SpriteSheetUtils.js" />
+    <Content Include="js\easeljs\utils\Ticker.js" />
+    <Content Include="js\easeljs\utils\UID.js" />
+    <Content Include="js\expressionDrawer.js" />
+    <Content Include="js\expressionGenerator.js" />
+    <Content Include="js\gameStates.js" />
+    <Content Include="js\labyrinthDrawer.js" />
+    <Content Include="js\labyrinthGenerator.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\movieclip-0.5.0.min.js" />
+    <Content Include="js\physics.js" />
+    <Content Include="js\preloadjs-0.2.0.min.js" />
+    <Content Include="js\tweenjs-0.3.0.min.js" />
+    <Content Include="gamePage.html" />
+    <None Include="Calc it Up_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <!-- To modify your build process, add your task inside one of the targets below then uncomment
+       that target and the DisableFastUpToDateCheck PropertyGroup. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <PropertyGroup>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+  -->
+</Project>

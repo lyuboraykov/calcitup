@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Calc_it_Up</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- Calc_it_Up references -->
+    <link href="/css/startPage.css" rel="stylesheet" />
+    <script src="js/main.js"></script>
+    <script src="/js/default.js"></script>
+</head>
+<body>
+    <button id="start-button">Start</button>
+    <img id="schooler-image" src="/images/schooler.jpg" /> 
+</body>
+</html>

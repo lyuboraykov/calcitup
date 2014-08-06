@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="35978Lyubo.CalcitUp" Version="1.0.3.1" Publisher="CN=791B5DBF-5085-4C78-8000-170B564016B6" />
+  <Properties>
+    <DisplayName>Calc it Up</DisplayName>
+    <PublisherDisplayName>Lyubo</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="startPage.html">
+      <VisualElements DisplayName="Calc it Up" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="Calc it Up" ForegroundText="dark" BackgroundColor="#dcdcdc">
+        <DefaultTile ShowName="allLogos" WideLogo="images\WideLogo.png" ShortName="Calc" />
+        <SplashScreen Image="images\splashscreen.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LYUBO-PC</Machine>
+    <WindowsUser>Lubo</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\css\startPage.css">
+      <PackagePath>css\startPage.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\images\WideLogo.scale-80.png">
+      <PackagePath>images\WideLogo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\images\bird-sprite.png">
+      <PackagePath>images\bird-sprite.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\images\cloud.png">
+      <PackagePath>images\cloud.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\images\manSpriteSheet.png">
+      <PackagePath>images\manSpriteSheet.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\images\sun.png">
+      <PackagePath>images\sun.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\images\taskArea.jpg">
+      <PackagePath>images\taskArea.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\images\landshaft.jpg">
+      <PackagePath>images\landshaft.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\images\schooler.jpg">
+      <PackagePath>images\schooler.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\soundjs-0.4.0.min.js">
+      <PackagePath>js\soundjs-0.4.0.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\taskPreloader.js">
+      <PackagePath>js\taskPreloader.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\box2dweb.js">
+      <PackagePath>js\box2dweb.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\display\Bitmap.js">
+      <PackagePath>js\easeljs\display\Bitmap.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\display\BitmapAnimation.js">
+      <PackagePath>js\easeljs\display\BitmapAnimation.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\display\Container.js">
+      <PackagePath>js\easeljs\display\Container.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\display\DisplayObject.js">
+      <PackagePath>js\easeljs\display\DisplayObject.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\display\DOMElement.js">
+      <PackagePath>js\easeljs\display\DOMElement.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\display\Graphics.js">
+      <PackagePath>js\easeljs\display\Graphics.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\display\MovieClip.js">
+      <PackagePath>js\easeljs\display\MovieClip.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\display\Shadow.js">
+      <PackagePath>js\easeljs\display\Shadow.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\display\Shape.js">
+      <PackagePath>js\easeljs\display\Shape.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\display\SpriteSheet.js">
+      <PackagePath>js\easeljs\display\SpriteSheet.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\display\Stage.js">
+      <PackagePath>js\easeljs\display\Stage.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\display\Text.js">
+      <PackagePath>js\easeljs\display\Text.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\events\MouseEvent.js">
+      <PackagePath>js\easeljs\events\MouseEvent.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\filters\AlphaMapFilter.js">
+      <PackagePath>js\easeljs\filters\AlphaMapFilter.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\filters\AlphaMaskFilter.js">
+      <PackagePath>js\easeljs\filters\AlphaMaskFilter.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\filters\BoxBlurFilter.js">
+      <PackagePath>js\easeljs\filters\BoxBlurFilter.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\filters\ColorFilter.js">
+      <PackagePath>js\easeljs\filters\ColorFilter.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\filters\ColorMatrix.js">
+      <PackagePath>js\easeljs\filters\ColorMatrix.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\filters\ColorMatrixFilter.js">
+      <PackagePath>js\easeljs\filters\ColorMatrixFilter.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\filters\Filter.js">
+      <PackagePath>js\easeljs\filters\Filter.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\geom\Matrix2D.js">
+      <PackagePath>js\easeljs\geom\Matrix2D.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\geom\Point.js">
+      <PackagePath>js\easeljs\geom\Point.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\geom\Rectangle.js">
+      <PackagePath>js\easeljs\geom\Rectangle.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\ui\Touch.js">
+      <PackagePath>js\easeljs\ui\Touch.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\utils\SpriteSheetBuilder.js">
+      <PackagePath>js\easeljs\utils\SpriteSheetBuilder.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\utils\SpriteSheetUtils.js">
+      <PackagePath>js\easeljs\utils\SpriteSheetUtils.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\utils\Ticker.js">
+      <PackagePath>js\easeljs\utils\Ticker.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\easeljs\utils\UID.js">
+      <PackagePath>js\easeljs\utils\UID.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\expressionDrawer.js">
+      <PackagePath>js\expressionDrawer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\expressionGenerator.js">
+      <PackagePath>js\expressionGenerator.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\gameStates.js">
+      <PackagePath>js\gameStates.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\labyrinthDrawer.js">
+      <PackagePath>js\labyrinthDrawer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\labyrinthGenerator.js">
+      <PackagePath>js\labyrinthGenerator.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\main.js">
+      <PackagePath>js\main.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\movieclip-0.5.0.min.js">
+      <PackagePath>js\movieclip-0.5.0.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\physics.js">
+      <PackagePath>js\physics.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\preloadjs-0.2.0.min.js">
+      <PackagePath>js\preloadjs-0.2.0.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\js\tweenjs-0.3.0.min.js">
+      <PackagePath>js\tweenjs-0.3.0.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\music\jump.mp3">
+      <PackagePath>music\jump.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\music\Shake and Bake_0.mp3">
+      <PackagePath>music\Shake and Bake_0.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\startPage.html">
+      <PackagePath>startPage.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\gamePage.html">
+      <PackagePath>gamePage.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lubo\Documents\Visual Studio 2012\Projects\Calc it Up\Calc it Up\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20602</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20602</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

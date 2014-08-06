@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Calc_it_Up</title>
+    <!-- Calc_it_Up references -->
+    <link href="css/startPage.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="gamePage.html"><img src="images/play.png" id="play-button"/></a></li>
+            <li><input type="text" placeholder="Anonymous" id="name-input" maxlength="12" onchange="saveUser()"/></li>
+            <li><a href="help.html"><img src="images/help.png" id="help-button"/></a></li>
+            <li><a href="highscores.html"><img src="images/highscores.png" id="highscores-button"/></a></li>
+        </ul>
+    </nav>
+    <script>
+        if (localStorage["user"]) {
+            document.getElementById("name-input").innerText = localStorage["user"];
+        }
+        function saveUser() {
+            var nameInput = document.getElementById("name-input");
+            var username = nameInput.value;
+            if (username) {
+                gameStates.user = username;
+                localStorage["user"] = username;
+            }
+            else {
+                localStorage["user"] = "Anonymous";
+            }
+        }
+    </script>
+    <script src="js/main.js"></script>
+    <script src="js/gameStates.js"></script>
+    <script src="js/default.js"></script>
+</body>
+</html>

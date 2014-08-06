@@ -1,0 +1,13 @@
+c:\users\lubo\documents\visual studio 2012\Projects\Calc it Up\Calc it Up\bin\Release\resources.pri
+c:\users\lubo\documents\visual studio 2012\Projects\Calc it Up\Calc it Up\bin\Release\AppxManifest.xml
+c:\users\lubo\documents\visual studio 2012\Projects\Calc it Up\Calc it Up\bin\Release\Calc it Up.build.appxrecipe
+c:\users\lubo\documents\visual studio 2012\Projects\Calc it Up\Calc it Up\bld\Release\priconfig.xml.intermediate
+c:\users\lubo\documents\visual studio 2012\Projects\Calc it Up\Calc it Up\bld\Release\layout.resfiles.intermediate
+c:\users\lubo\documents\visual studio 2012\Projects\Calc it Up\Calc it Up\bld\Release\resources.resfiles.intermediate
+c:\users\lubo\documents\visual studio 2012\Projects\Calc it Up\Calc it Up\bld\Release\pri.resfiles.intermediate
+c:\users\lubo\documents\visual studio 2012\Projects\Calc it Up\Calc it Up\bld\Release\priconfig.xml
+c:\users\lubo\documents\visual studio 2012\Projects\Calc it Up\Calc it Up\bld\Release\layout.resfiles
+c:\users\lubo\documents\visual studio 2012\Projects\Calc it Up\Calc it Up\bld\Release\resources.resfiles
+c:\users\lubo\documents\visual studio 2012\Projects\Calc it Up\Calc it Up\bld\Release\pri.resfiles
+c:\users\lubo\documents\visual studio 2012\Projects\Calc it Up\Calc it Up\bld\Release\LanguageQualifiers.txt
+c:\users\lubo\documents\visual studio 2012\Projects\Calc it Up\Calc it Up\bld\Release\ProjectArchitectures.txt

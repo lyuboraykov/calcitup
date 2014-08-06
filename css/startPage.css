@@ -1,0 +1,64 @@
+﻿body, button, img, ul {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-image: url(../images/background.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+#play-button {
+    margin:0 auto;
+    height:200px;
+    width:200px;
+    display:block;
+}
+
+#play-button:hover{
+    transform:scale(1.04);
+    -webkit-transform: scale(1.04);
+}
+
+#help-button:hover{
+    transform:scale(1.04);
+    -webkit-transform: scale(1.04);
+}
+
+#highscores-button:hover{
+    transform:scale(1.04);
+    -webkit-transform: scale(1.04);
+}
+
+#name-input{
+    margin:0 auto;
+    margin-top:13px;
+    font-size:35px;
+    display:block;
+    width:300px;
+}
+
+#help-button {
+    float:left;
+    margin-left:80px;
+    height:250px;
+    margin-top:-200px;
+}
+
+#highscores-button {
+    float:right;
+    height:250px;
+    margin-right:80px;
+    margin-top:-200px;
+}
+
+ul{
+    list-style-type:none;
+    margin-top:175px;
+}
+
+li {
+    display:inline;
+}
